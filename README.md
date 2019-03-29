@@ -48,5 +48,6 @@ export default {
 ## demo app
 ```sh
 npm install takb/markflat.vue
-npm run serve
+npm run serve 
 ```
+then open http://localhost:8080/ in a browser.
