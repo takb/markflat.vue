@@ -5,7 +5,6 @@ Vue plugin to integrate [markflat.showdown](/takb/markflat.showdown).
 ```sh
 npm install takb/markflat.vue
 ```
-
 ## use 
 In your Vue application's main.js file: 
 ```javascript
@@ -15,6 +14,7 @@ Vue.use(MarkFlat, {
   mbEnableZoom: true
 })
 ```
+
 This installs a `$markflat` property to the Vue prototype for use in javascript code: 
 ```html
 <script>
@@ -28,7 +28,7 @@ export default {
 };
 </script>
 ```
-And it registers a global component `markflat`, which takes one property `mb` and generates a div with  : 
+And it registers a global component `markflat`, which takes one property `mb` and generates a div with computes its innerHTML with a computed method (in fact, the one above): 
 ```html
 <template>
   <div id="app" style="width: 60%; margin: auto;">
@@ -46,8 +46,9 @@ export default {
 </script>
 ```
 ## demo app
+`git clone` this repo, then run 
 ```sh
-npm install takb/markflat.vue
+npm install
 npm run serve 
 ```
 then open http://localhost:8080/ in a browser.
