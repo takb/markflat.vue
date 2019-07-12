@@ -1,5 +1,5 @@
 # markflat.vue
-Vue plugin to integrate [markflat.showdown](/takb/markflat.showdown).
+Vue plugin to integrate [markflat.showdown](https://github.com/takb/markflat.showdown).
 
 ## install
 ```sh
